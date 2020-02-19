@@ -7,4 +7,4 @@ RUN curl --silent --location https://rpm.nodesource.com/setup_$NODE_VERSION.x | 
     yum clean all && \
     npm install -g yarn --no-progress && \
     rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm && \
-    yum -y install dotnet-sdk-3.0 &&
+    yum -y install dotnet-sdk-3.0
